@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2fe;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.header > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.main-panel {
+    grid-template-columns: 1fr 3fr;
+}
+.f3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main {
+    padding: 20px 0;
+}
+.card {
+    padding: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.image > img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.card > .image {
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.price {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card > .btn {
+    margin-top: 10px;
+}
+.btn {
+    border-radius: 6px;
+    background-color: #624ae4;
+    border: none;
+    outline: none;
+    padding: .7rem 1.4rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    transition: opacity .2s ease;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.btn:hover {
+    opacity: .8;
+}
+form .btn {
+    margin-top: 20px;
+}
+.flex-row {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.input {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: .7rem 1.4rem;
+    background-color: #e7e7f4;
+
+    transition: box-shadow .2s ease;
+}
+
+.input:focus {
+    box-shadow: 0 0 0 2px rgba(98, 74, 228, 0.8);
+}
+
+.price {
+    flex: 1 1 auto;
+}
+
+.card img {
+    height: 250px;
+}
+.f {
+    height: fit-content;
+}
+
+.component h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.flex-row .input {
+    flex: 0 0 100px;
+    width: 130px;
+}
+
+.pagination {
+    justify-content: center;
+}
